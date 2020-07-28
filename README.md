@@ -17,3 +17,8 @@ Database Setup
 - CREATE DATABASE bookmark_manager;
 - \c bookmark_manager;
 - run 01_create_bookmarks_table.sql
+
+Test Database Setup
+- CREATE DATABASE bookmark_manager_test;
+- \c bookmark_manager_test;
+- run 01_create_bookmarks_table.sql
