@@ -14,7 +14,7 @@ So I can choose which websites are in my bookmarks
 I would like to be able to add the url to my bookmark manager
 ```
 
-Database Setup
+### Database Setup
 
 - Brew install potgresql
 - Brew services start postgresql
@@ -22,7 +22,8 @@ Database Setup
 - \c bookmark_manager;
 - run 01_create_bookmarks_table.sql
 
-Test Database Setup
+### Test Database Setup
+
 - CREATE DATABASE bookmark_manager_test;
 - \c bookmark_manager_test;
 - run 01_create_bookmarks_table.sql

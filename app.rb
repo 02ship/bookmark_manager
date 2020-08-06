@@ -16,8 +16,7 @@ class BookmarkManager < Sinatra::Base
   end
 
   post '/bookmarks' do
-    Bookmark.create(params[:url])
-    connection.exec("INSERT INTO bookmarks (url) VALUES ('#{url}');")
+    Bookmark.create(url: params[:url], title: params[:title])
     redirect '/bookmarks'
   end
 
